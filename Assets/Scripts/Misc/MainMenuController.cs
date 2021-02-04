@@ -16,7 +16,7 @@ public class MainMenuController : MonoBehaviour
     private string m_DefaultHighScoreText;
     #endregion
 
-    #region initialization
+    #region Initialization
     private void Awake()
     {
         Cursor.lockState = CursorLockMode.None;

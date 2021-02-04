@@ -182,7 +182,7 @@ public class PlayerController : MonoBehaviour
         if (p_Health > m_MaxHealth)
         {
             p_Health = m_MaxHealth;
-            m_Speed += 1;
+            m_Speed += 2;
         }
         m_HUD.UpdateHealth(1.0f * p_Health / m_MaxHealth);
     }
